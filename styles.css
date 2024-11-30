@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 5rem;
+    align-content: baseline;
+    font-family: 'franklin';
+    text-align: center;
+    
+}
+
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+   
+}
+
+.title h1 {
+    font-size: 5.5rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-family: 'Gilda';
+    font-style: italic;
+    position: absolute;
+    top: 1rem;
+    border-radius: 3px;
+    padding: 1rem;
+    font-weight: 300;
+    z-index: 9;
+    left: 40%;
+    color: white;
+    ;
+    
+    
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+p, li, a {
+    line-height: 1.6rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+
+/* header section */
+
+
+.header {
+    padding: 2rem;
+    margin: 0; 
+    
+    position: fixed;
+    top: 0;
+    width: 100%
+    z-index: 100;
+    background-color: white;
+    overflow: hidden;
+    height: 5rem;
+    align-items: center;  
+    border-bottom: slategray .2rem solid;
+    justify-content: space-between;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header, .nav {
+   display: flex;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    
+}
+
+.nav {
+    margin-top: .3rem;
+    border-radius: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 3px;
+}
+
+.nav li {
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 3px;
+  
+   
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    text-align: center;
+    z-index: 100;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    box-shadow: 0px 5px 0px darkgray;
+    color: #000;
+}
+
+.nav a:active {
+    color: blue;
+}
+
+.header #logo {
+    display: absolute;
+    height: auto;
+   width: 4rem;
+    top: 1rem;
+    left: 1rem;
+  
+}
+
+.video {
+    display: flex;
+    width: auto;
+    height: 50rem;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    background-color: black;
+    object-fit: cover;
+    margin-bottom: 3rem;
+}
+
+}
+p {
+    
+}
+
+
+/* Mission Section */
+
+.mission {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 100%;
+    height: auto;
+    line-height:  4rem;
+    color: white;
+}
+.missiontext {
+    grid-column: 2 / 3;
+    width: 60rem;
+    padding: 5rem;
+     background-color: slategray;
+    border-radius: 2rem;
+    bor
+}
+.mission h3 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+/*  address */
+.location {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    width: 90%;
+    height: auto;
+    margin: 5rem;
+    margin-bottom: 5rem;
+}
+
+.location h2 {
+    text-align: center;
+    grid-column: 1 / 3;
+   margin: 3rem;
+}
+
+.map {
+  grid-column: 1 / 2;
+    width: 70%;
+    height: auto;
+    border: black solid 0.5rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-left: 4rem;
+    
+    
+}
+.map figcaption {
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.map img {
+    border-radius: 5px;
+}
+
+.address {
+    grid-column: 2 / 3;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+        color: white;
+    border: black solid 0.5rem;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    margin-right: 4rem;
+}
+
+.address a {
+   text-decoration: none;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    padding: .2rem;
+    align-content: 
+    cursor: pointer;
+    box-shadow: -3px 3px 5px darkgray;
+    color: black;
+}
+
+.address a:hover {
+    background-color: gray;
+}
+
+.address a:active {
+    color: yellow;
+    
+}
+
+/*  Gallery Section */
+
+.gallery {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.box1, .box2 {
+    border: black 0.5rem solid;
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+    align-items: center;
+    background-color: black;
+}
+
+.box1 {
+    display: flex;
+    
+}
+
+.box2 {
+    display: flex;
+}
+
+.gallery figure {
+    width: 25%;
+    height: auto;
+    padding: 0.4rem;
+    background-color: black;
+    color: white;
+}
+
+.gallery img {
+    border-radius: 0.2rem;
+}
+
+.gallery figcaption {
+    display: none;
+    font-size: 1.5rem;
+    
+}
+/*   Hours  */
+
+.hours {
+    position: relative;
+    top: auto
+}
+
+/*  Address Section */
+
+.hours {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.hourstext {
+    grid-column: 2 / 3;
+    background-color: black;
+        color: white;
+    border-radius: 2rem;
+    text-height: 2rem;
+    padding: 2rem;
+}
